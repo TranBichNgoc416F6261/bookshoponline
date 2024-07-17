@@ -17,7 +17,7 @@ class ProductDetail extends Component {
     if (prod != null) {
       return (
         <div className="align-center">
-          <h2 className="text-center">PRODUCT DETAILS</h2>
+          <h2 className="text-center">Chi Tiết Sản Phẩm</h2>
           <figure className="caption-right">
             <img src={"data:image/jpg;base64," + prod.image} width="400px" height="400px" alt="" />
             <figcaption>
