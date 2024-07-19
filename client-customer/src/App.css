@@ -39,7 +39,6 @@ span.link {
 /* menu.css */
 div.border-bottom {
   border-bottom: 1px solid black;
-  background-color: #242526;
   padding: 10px 0px 10px 0px;
 }
 div.float-left {
@@ -54,6 +53,7 @@ div.float-clear {
 ul.menu {
   margin: 0px;
   padding: 0px;
+  background-color: #242526;
 }
 li.menu {
   display: inline;
