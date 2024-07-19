@@ -46,7 +46,7 @@ div.border-bottom-login {
   border-bottom: 1px solid black;
   padding: 10px 0px 10px 0px;
 }
-Link {
+Link:link, Link:visited {
   color: #f5f5f5;
 }
 div.float-left {
