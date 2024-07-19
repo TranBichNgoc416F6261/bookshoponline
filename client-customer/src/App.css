@@ -41,9 +41,11 @@ div.border-bottom {
   border-bottom: 1px solid black;
   padding: 10px 0px 10px 0px;
 }
+.menu-background {
+  background-color: #22272e;
+}
 div.float-left {
   float: left;
-  background-color: #1c2128;
 }
 div.float-right {
   float: right;
