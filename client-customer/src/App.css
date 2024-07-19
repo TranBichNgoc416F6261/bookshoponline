@@ -37,12 +37,11 @@ span.link {
   text-decoration: underline;
 }
 /* menu.css */
-div.border-bottom {
+div.border-bottom-menu {
   border-bottom: 1px solid black;
   padding: 10px 0px 10px 0px;
-}
-.menu-background {
-  background-color: #22272e;
+  background-color: #333333;
+  color: #dcfcfc;
 }
 div.float-left {
   float: left;
@@ -56,6 +55,9 @@ div.float-clear {
 ul.menu {
   margin: 0px;
   padding: 0px;
+}
+ul.menu:hover {
+  background-color: #000000;
 }
 li.menu {
   display: inline;

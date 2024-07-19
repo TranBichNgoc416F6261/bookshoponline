@@ -19,7 +19,6 @@ class Menu extends Component {
     });
     return (
       <div className="border-bottom">
-        <div className='menu-background'>
           <div className="float-left">
             <ul className="menu">
               <li className="menu"><Link to='/'>Trang Chủ</Link></li>
@@ -34,7 +33,6 @@ class Menu extends Component {
           </div>
           <div className="float-clear" />
         </div>
-      </div>
     );
   }
   // event-handlers
