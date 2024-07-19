@@ -40,7 +40,6 @@ span.link {
 div.border-bottom {
   border-bottom: 1px solid black;
   background-color: #242526;
-  overflow: hidden;
   padding: 10px 0px 10px 0px;
 }
 div.float-left {
@@ -55,22 +54,6 @@ div.float-clear {
 ul.menu {
   margin: 0px;
   padding: 0px;
-}
-li.menu {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-li.menu:hover {
-  background-color: #ddd;
-  color: black;
-}
-li.menu:active {
-  background-color: #04AA6D;
-  color: white;
 }
 li.menu {
   display: inline;
