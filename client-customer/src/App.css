@@ -43,6 +43,7 @@ div.border-bottom {
 }
 div.float-left {
   float: left;
+  background-color: #1c2128;
 }
 div.float-right {
   float: right;
@@ -53,7 +54,6 @@ div.float-clear {
 ul.menu {
   margin: 0px;
   padding: 0px;
-  background-color: #242526;
 }
 li.menu {
   display: inline;
