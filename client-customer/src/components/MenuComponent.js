@@ -21,14 +21,14 @@ class Menu extends Component {
       <div className="border-bottom">
         <div className="float-left">
           <ul className="menu">
-            <li className="menu"><Link to='/'>Home</Link></li>
+            <li className="menu"><Link to='/'>Trang Chủ</Link></li>
             {cates}
           </ul>
         </div>
         <div className="float-right">
           <form className="search">
-            <input type="search" placeholder="Enter keyword" className="keyword" value={this.state.txtKeyword} onChange={(e) => { this.setState({ txtKeyword: e.target.value }) }} />
-            <input type="submit" value="SEARCH" onClick={(e) => this.btnSearchClick(e)} />
+            <input type="search" placeholder="nhập từ khóa tìm kiếm" className="keyword" value={this.state.txtKeyword} onChange={(e) => { this.setState({ txtKeyword: e.target.value }) }} />
+            <input type="submit" value="Tìm kiếm" onClick={(e) => this.btnSearchClick(e)} />
           </form>
         </div>
         <div className="float-clear" />

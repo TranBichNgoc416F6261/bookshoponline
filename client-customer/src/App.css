@@ -53,6 +53,24 @@ div.float-clear {
 ul.menu {
   margin: 0px;
   padding: 0px;
+  background-color: #242526;
+  overflow: hidden;
+}
+Link.menu {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+Link.menu:hover {
+  background-color: #ddd;
+  color: black;
+}
+Link.menu:active {
+  background-color: #04AA6D;
+  color: white;
 }
 li.menu {
   display: inline;

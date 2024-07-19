@@ -12,7 +12,7 @@ class Active extends Component {
   render() {
     return (
       <div className="align-center">
-        <h2 className="text-center">ACTIVE ACCOUNT</h2>
+        <h2 className="text-center">Kích hoạt tài khoản</h2>
         <form>
           <table className="align-center">
             <tbody>
@@ -26,7 +26,7 @@ class Active extends Component {
               </tr>
               <tr>
                 <td></td>
-                <td><input type="submit" value="ACTIVE" onClick={(e) => this.btnActiveClick(e)} /></td>
+                <td><input type="submit" value="Kích hoạt" onClick={(e) => this.btnActiveClick(e)} /></td>
               </tr>
             </tbody>
           </table>
@@ -51,9 +51,9 @@ class Active extends Component {
     axios.post('/api/customer/active', body).then((res) => {
       const result = res.data;
       if (result) {
-        alert('OK BABY!');
+        alert('Kích hoạt thành công!');
       } else {
-        alert('SORRY BABY!');
+        alert('Kích hoạt thất bại.');
       }
     });
   }
