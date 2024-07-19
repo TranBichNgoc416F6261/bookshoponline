@@ -34,12 +34,12 @@ class Home extends Component {
     return (
       <div>
         <div className="align-center">
-          <h2 className="text-center">NEW PRODUCTS</h2>
+          <h2 className="text-center">Sản Phẩm Mới</h2>
           {newprods}
         </div>
         {this.state.hotprods.length > 0 ?
           <div className="align-center">
-            <h2 className="text-center">HOT PRODUCTS</h2>
+            <h2 className="text-center">Sản Phẩm Nổi Bật</h2>
             {hotprods}
           </div>
           : <div />}
