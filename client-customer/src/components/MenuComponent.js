@@ -18,7 +18,7 @@ class Menu extends Component {
       );
     });
     return (
-      <div className="border-bottom">
+      <div className="border-bottom-menu">
           <div className="float-left">
             <ul className="menu">
               <li className="menu"><Link to='/'>Trang Chủ</Link></li>

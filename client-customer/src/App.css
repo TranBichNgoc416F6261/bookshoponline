@@ -39,9 +39,12 @@ span.link {
 /* menu.css */
 div.border-bottom-menu {
   border-bottom: 1px solid black;
-  padding: 10px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
   background-color: #333333;
-  color: #dcfcfc;
+}
+div.border-bottom-login {
+  border-bottom: 1px solid black;
+  padding: 0px 0px 0px 0px;
 }
 div.float-left {
   float: left;
