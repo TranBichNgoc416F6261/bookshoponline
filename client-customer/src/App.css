@@ -68,6 +68,8 @@ li.menu {
   display: inline;
   margin-right: 20px;
   text-transform: uppercase;
+  color: #dcfcfc;
+  text-decoration: solid;
 }
 form.search {
   margin: 0px;
