@@ -65,7 +65,7 @@ ul.menu {
   padding: 0px;
 }
 li.menu {
-  display: inline;
+  display: block;
   margin-right: 20px;
   text-transform: uppercase;
   color: #dcfcfc;
