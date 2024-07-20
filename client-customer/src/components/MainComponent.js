@@ -11,6 +11,7 @@ import Login from './LoginComponent';
 import Myprofile from './MyprofileComponent';
 import Mycart from './MycartComponent';
 import Myorders from './MyordersComponent';
+import TawkMessenger from './TawkMessengerComponent';
 
 class Main extends Component {
   render() {
@@ -31,6 +32,7 @@ class Main extends Component {
                 <Route path='/mycart' element={<Mycart />} />
                 <Route path='/myorders' element={<Myorders />} />
             </Routes>
+            <TawkMessenger />
         </div>
     );
   }
