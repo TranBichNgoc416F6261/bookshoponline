@@ -1,84 +1,16 @@
 /* styles.css */
-body {
-  height: 100%;
-  background-image: url("img.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: black;
-  font-size: 14px;
-}
 .body-customer {
   width: 1150px;
   height: fit-content;
   margin: 0px auto;
+  color: black;
+  font-weight: 500;
 }
 .body-admin {
   width: fit-content;
   height: fit-content;
   margin: 0px auto;
 }
-div.inline {
-  display: inline-block;
-}
-figure.caption-right {
-  display: flex;
-  align-items: center;
-}
-.align-center {
-  width: fit-content;
-  margin: 0px auto;
-}
-.align-valign-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 0px 20px 20px 20px;
-  border: 1px solid black;
-}
-.text-center {
-  text-align: center;
-}
-span.link {
-  cursor: pointer;
-  color: black;
-  text-decoration: none;
-}
-/* menu.css */
-div.border-bottom {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  border-bottom: 1px solid black;
-  padding: 0px 0px 0px 0px;
-}
-div.float-left {
-  float: left;
-}
-div.float-right {
-  float: right;
-}
-div.float-clear {
-  clear: both;
-}
-ul.menu {
-  margin: 0px;
-  padding: 0px;
-}
-li.menu {
-  display: inline;
-  margin-right: 20px;
-  text-transform: uppercase;
-}
-form.search {
-  margin: 0px;
-}
-input.keyword {
-  width: 200px;
-  height: 48px;
-  border-radius: 24px;
-}
-
 a:-webkit-any-link {
   color: black;
   cursor: pointer;
@@ -108,6 +40,62 @@ img {
   aspect-ratio: auto 300 / 300;
   height: 300px;
   margin-right: 30px;
+}
+div.inline {
+  display: inline-block;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+}
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+}
+.text-center {
+  text-align: center;
+}
+span.link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+/* menu.css */
+div.border-bottom {
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 0px;
+}
+div.float-left {
+  float: left;
+}
+div.float-right {
+  float: right;
+}
+div.float-clear {
+  clear: both;
+}
+ul.menu {
+  margin: 0px;
+  padding: 0px;
+}
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+form.search {
+  margin: 0px;
+}
+input.keyword {
+  width: 150px;
 }
 /* datatable.css */
 .datatable {
