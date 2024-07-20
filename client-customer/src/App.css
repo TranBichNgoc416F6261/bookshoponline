@@ -40,8 +40,8 @@ figure.caption-right {
 }
 span.link {
   cursor: pointer;
-  color: blue;
-  text-decoration: underline;
+  color: #dcfcfc;
+  text-decoration: none;
 }
 /* menu.css */
 div.border-bottom {
@@ -49,7 +49,6 @@ div.border-bottom {
   margin-bottom: 40px;
   border-bottom: 1px solid black;
   padding: 0px 0px 0px 0px;
-  background-color: #090400;
 }
 div.float-left {
   float: left;
