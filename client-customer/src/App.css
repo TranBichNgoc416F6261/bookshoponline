@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #dcfcfc;
+  font-size: 14px;
 }
 .body-customer {
   width: 1150px;
@@ -76,6 +77,13 @@ input.keyword {
   width: 200px;
   height: 48px;
   border-radius: 24px;
+}
+
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
 }
 /* datatable.css */
 .datatable {
