@@ -1,4 +1,13 @@
 /* styles.css */
+body {
+  height: 100%;
+  background-image: url("img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-size: 14px;
+}
 .body-customer {
   width: 1150px;
   height: fit-content;
