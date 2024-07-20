@@ -65,8 +65,11 @@ figure.caption-right {
 }
 span.link {
   cursor: pointer;
-  color: blue;
+  color: #35f6d7;
   text-decoration: underline;
+}
+span.link :hover {
+  color: #d0ff10;
 }
 /* menu.css */
 div.border-bottom {
@@ -196,4 +199,5 @@ input[type=text], input[type=password], input[type=tel], input[type=email] {
   border-bottom: #f5f5f5;
   border-top: none;
   height: 30px;
+  background-color: white;
 }
