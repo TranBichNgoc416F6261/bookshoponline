@@ -1,4 +1,11 @@
 /* styles.css */
+body {
+  height: 100%;
+  background-image: url("https://i.pinimg.com/564x/ad/54/77/ad54773fd81ca54a8174bc608f13c856.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .body-customer {
   width: 1150px;
   height: fit-content;
@@ -38,8 +45,6 @@ span.link {
 }
 /* menu.css */
 div.border-bottom {
-  margin-top: 20px;
-  margin-bottom: 20px;
   border-bottom: 1px solid black;
   padding: 10px 0px 10px 0px;
 }
