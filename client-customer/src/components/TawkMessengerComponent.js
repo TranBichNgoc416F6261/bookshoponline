@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TawkMessengerReact from '@tawk. to/tawk-messenger-react';
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
 class TawkMessenger extends Component {
     render() {
